@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Keyboardcast
+GenericName=Keyboard Multiplexer
+Comment=Send keys to multiple windows simultaneously
+Icon=gnome-dev-keyboard
+Exec=keyboardcast
+Terminal=false
+Categories=Application;Utility;

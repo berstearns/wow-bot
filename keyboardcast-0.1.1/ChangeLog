@@ -1,0 +1,15 @@
+2005-12-06  Ryan Lortie  <desrt@desrt.ca>
+
+	* keyboardcast.desktop (new file): .desktop file for keyboardcast
+	  written by Dennis Kaarsemaker <dennis@kaarsemaker.net>
+	* COPYING (new file): include a copy of the GPL.
+	* Makefile: install .desktop file and support $(DESTDIR) to enable
+	  easier Debian packaging.  Don't use install -t (option is too new).
+	* window-list.h:
+	* window-list.c:
+	* grab-window.h:
+	* grab-window.c: Add GPL header.
+	* keyboardcast.c: Add GPL header.  Give --window-with-profile flag to
+	  gnome-terminal to launch terminals with 'keyboardcast' profile (for
+	  example to have a smaller font size).  Has no effect if this profile
+	  is not defined.
